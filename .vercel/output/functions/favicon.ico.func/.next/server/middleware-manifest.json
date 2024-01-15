@@ -1,0 +1,29 @@
+{
+  "sortedMiddleware": [],
+  "middleware": {},
+  "functions": {
+    "/edge/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/edge/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/edge/page.js"
+      ],
+      "name": "app/edge/page",
+      "page": "/edge/page",
+      "matchers": [
+        {
+          "regexp": "^/edge$",
+          "originalSource": "/edge"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
+  "version": 2
+}
